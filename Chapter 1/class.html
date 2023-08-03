@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Emp {
+            constructor(id, name, sal) {
+                this.id = id;
+                this.name = name;
+                this.sal = sal;
+            }
+            info() {
+                document.write(this.id + " " +this.name + " " + this.sal + " <br>");
+                
+            }
+        }
+        var emp = new Emp(12, "sd", 20000);
+        var emp1 = new Emp(10, "pd", 10000);
+        emp.info()
+        emp1.info();
+
+    </script>
+</body>
+
+</html>

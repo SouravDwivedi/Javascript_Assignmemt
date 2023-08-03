@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // length method of String
+        var str="hello Prabhu <br>"
+        var len=str.length;
+        document.write(str)
+        document.write(len + "<br>")
+
+        var str1="hello 'Prabhu' "
+        document.write(str1)
+
+        // slice method
+        let fruit= "apple,mango,gapes"
+        let part=fruit.slice(6,11)
+        document.write("<br>"+ fruit + "<br>" +part)
+
+         // substring method
+         let fruit1= "apple,mango,gapes"
+        let part1=fruit.substring(6,)
+        document.write("<br>"+ fruit + "<br>" +part1)
+
+         // substr method
+         let fruit2= "apple,mango,gapes"
+        let part2=fruit.substr(7,6)
+        document.write("<br>"+ fruit + "<br>" +part2)
+
+
+        // replace method (case sensitive )
+        let nam="hello prabhu"
+        let remove=nam.replace("prabhu","bhagwan ji")
+        document.write("<br>"+remove)
+
+        // uppercase and lowercase
+        let lo="Hello Sonysab"
+        let u=lo.toUpperCase;
+        let l=lo.toLowerCase;
+        document.write("<br>" + u + l)
+
+
+    </script>
+</body>
+</html>
